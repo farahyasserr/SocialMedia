@@ -63,7 +63,7 @@ const CardsStack = (): JSX.Element => {
         verticalSwipe={false}
         overlayLabels={overlayLabelsStyle}
         cardIndex={0}
-        stackSize={2}
+        stackSize={4}
       />
     </View>
   );

@@ -1,9 +1,9 @@
 export default {
   homeScreen: {
-    card1: require('./HomeScreen/CardStack/card1.png'),
-    card2: require('./HomeScreen/CardStack/card2.png'),
-    card3: require('./HomeScreen/CardStack/card3.png'),
-    card4: require('./HomeScreen/CardStack/card4.png'),
+    card1: require('./HomeScreen/CardStack/card1.jpg'),
+    card2: require('./HomeScreen/CardStack/card2.jpg'),
+    card3: require('./HomeScreen/CardStack/card3.jpg'),
+    card4: require('./HomeScreen/CardStack/card4.jpg'),
   },
   logo: require('./shared/logo.png'),
   menuIcon: require('./shared/menuIcon.png'),
