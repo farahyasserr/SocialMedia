@@ -1,5 +1,6 @@
 import {StyleSheet} from 'react-native';
 import colors from '../../theme/colors';
+import fonts from '../../theme/fonts';
 
 const styles = StyleSheet.create({
   overlayContainer: {
@@ -14,7 +15,8 @@ const styles = StyleSheet.create({
   },
   text: {
     color: colors.green,
-    fontWeight: 'bold',
+    fontWeight: '400',
+    fontFamily: fonts.bold,
   },
 });
 

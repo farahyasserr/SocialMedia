@@ -4,12 +4,24 @@ import overlays from '../../../constants/overlays';
 import colors from '../../theme/colors';
 import styles from './OverlayLabel.styles';
 
-const YesOverlay = ({type}: {type: overlays}): JSX.Element => {
+const overlayLabel = ({type}: {type: overlays}): JSX.Element => {
+  const yes = type === overlays.YES;
+
+  const customStyle = {
+    ...styles.overlayContainer,
+    borderColor: yes ? colors.green : colors.red,
+  };
+
+  const textStyle = {
+    ...styles.text,
+    color: yes ? colors.green : colors.red,
+  };
+
   return (
-    <View style={styles.overlayContainer}>
-      <Text style={styles.text}>{type === overlays.YES ? 'YES' : 'NO'}</Text>
+    <View style={customStyle}>
+      <Text style={textStyle}>{yes ? 'Yes' : 'No'}</Text>
     </View>
   );
 };
 
-export default YesOverlay;
+export default overlayLabel;
