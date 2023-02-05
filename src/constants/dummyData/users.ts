@@ -21,12 +21,12 @@ const users: user[] = [
   {
     id: 3,
     name: 'Mark Jhose',
-    image: images.homeScreen.card2,
+    image: images.homeScreen.card3,
   },
   {
     id: 4,
     name: 'John cavi',
-    image: images.homeScreen.card2,
+    image: images.homeScreen.card4,
   },
 ];
 

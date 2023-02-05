@@ -9,10 +9,9 @@ type item = {
 };
 
 const CardItem = ({item}: {item: item}): JSX.Element => {
-  //width / height
   return (
     <ImageBackground
-      source={{uri: 'https://picsum.photos/400/700'}}
+      source={item.image}
       style={styles.backgroundImage}
       resizeMode="cover">
       <Text style={styles.text}>{item.name}</Text>
