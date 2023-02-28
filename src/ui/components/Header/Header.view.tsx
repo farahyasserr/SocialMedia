@@ -4,7 +4,6 @@ import images from '../../../assets/images';
 import styles from './Header.styles';
 
 const Header = (): JSX.Element => {
-  const x = 1;
   return (
     <View style={styles.headerContainer}>
       <Image source={images.logo} style={styles.logo} resizeMode="contain" />
