@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [6.0.0](https://github.com/farahyasserr/SocialMedia/compare/v5.0.1...v6.0.0) (2023-03-01)
+
+
+### ⚠ BREAKING CHANGES
+
+* testing
+
+### Features
+
+* testing ([8234535](https://github.com/farahyasserr/SocialMedia/commit/8234535b681df802cf7fd2617d12155f2fc90faa))
+
 ### [5.0.1](https://github.com/farahyasserr/SocialMedia/compare/v5.0.0...v5.0.1) (2023-03-01)
 
 
