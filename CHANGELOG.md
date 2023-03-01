@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.2.0](https://github.com/farahyasserr/SocialMedia/compare/v2.1.0...v2.2.0) (2023-03-01)
+
+
+### Features
+
+* **changed server config:** changing url ([64cd6aa](https://github.com/farahyasserr/SocialMedia/commit/64cd6aaba1b6b7f86e982798ffd0cffdd6bbd9ac))
+
 ## [2.1.0](https://github.com/farahyasserr/SocialMedia/compare/v2.0.1...v2.1.0) (2023-02-28)
 
 
