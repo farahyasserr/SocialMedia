@@ -4,7 +4,7 @@ import CardsStack from './blocks/CardsStack/CardsStack.view';
 import styles from './HomeScreen.styles';
 
 const HomeScreen = (): JSX.Element => {
-  let x = 'BREAKING CHANGE / MAJOR testing bump';
+  let x = 'BREAKING CHANGE / MAJOR testing no bump';
   return (
     <View style={styles.mainContainer}>
       <CardsStack />
