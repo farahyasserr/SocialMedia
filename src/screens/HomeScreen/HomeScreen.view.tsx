@@ -4,7 +4,7 @@ import CardsStack from './blocks/CardsStack/CardsStack.view';
 import styles from './HomeScreen.styles';
 
 const HomeScreen = (): JSX.Element => {
-  let x = 'testing the !kk';
+  let y = 1;
   return (
     <View style={styles.mainContainer}>
       <CardsStack />
